@@ -1,7 +1,7 @@
 import { useState } from "react";
-import TaskInput from "./components/TaskInput";
-import TaskList from "./components/TaskList";
-import UserGuide from "./components/UserGuide";
+import TaskInput from "./Components/TaskInput";
+import TaskList from "./Components/TaskList";
+import UserGuide from "./Components/UserGuide";
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
